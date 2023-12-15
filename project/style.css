@@ -6,6 +6,7 @@ body {
   background-image: url('pict/movie.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   position: relative;
   color: #333;
 }
@@ -16,6 +17,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   height: 100vh;
+  overflow-y: auto;
 }
 
 .container {
